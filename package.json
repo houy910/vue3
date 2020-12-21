@@ -1,0 +1,37 @@
+{
+  "name": "vue3",
+  "version": "1.0.0",
+  "description": "通过与vue2.X版本的对比来学习vue3.0新功能",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "webpack --env.production",
+    "dev": "webpack-dev-server --env.development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houy910/vue3.git"
+  },
+  "keywords": [
+    "vue3"
+  ],
+  "author": "yan.hou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houy910/vue3/issues"
+  },
+  "homepage": "https://github.com/houy910/vue3#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "vue-loader": "^16.0.0-beta.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.0-rc.1"
+  }
+}
